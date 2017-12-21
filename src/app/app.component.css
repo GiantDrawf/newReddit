@@ -1,0 +1,50 @@
+.title{
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	font-size: 40px;
+}
+.app{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	background-color: rgba(206,206,206,1);
+	padding: 1px 15px 20px 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px #888888;
+}
+.filed label{
+	display: block;
+	font-weight: bolder;
+	margin: 15px 0px 6px 0px;
+}
+.filed input{
+	width: 98%;
+	height: 30px;
+	font-size: 21px;
+	padding-left: 10px;
+}
+.submit-filed{
+	margin-top: 25px;
+	width: 100%;
+	text-align: right;
+}
+.submit-button{
+	background-color: #43d443;
+	color: white;
+	font-weight: bolder;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #43d443;
+	border-radius: 4px;
+	-webkit-appearance: button;
+    cursor: pointer;
+    outline: none;
+}
+.submit-button:hover{
+	background-color: #65ab65;
+}

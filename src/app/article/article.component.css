@@ -1,0 +1,76 @@
+.articles-list{
+	width: 50%;
+	height: 100px;
+	margin: 0 auto;
+}
+.votes{
+	text-align: center;
+	float: left;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	background-color: #afacac;
+}
+.value{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top:5px;
+	font-size: 44px;
+	font-weight: bolder;
+	color: #ab3c07;
+}
+.votes-label{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.column{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 80%;
+	background: -webkit-linear-gradient(left,#aadccd,white); /* Safari 5.1 - 6.0 */
+  	background: -o-linear-gradient(right,#aadccd,white); /* Opera 11.1 - 12.0 */
+  	background: -moz-linear-gradient(right,#aadccd,white); /* Firefox 3.6 - 15 */
+  	background: linear-gradient(to right,#aadccd,white); /* 标准的语法 */
+	padding-top: 5px;
+}
+.column a{
+	text-decoration: none;
+}
+.column li{
+	list-style-type: none;
+}
+.column ul{
+	position: absolute;
+	bottom: 0px;
+	width: 60%;
+}
+.column ul li{
+	width: 50%;
+	float: left;
+	font-size: 20px;
+	color: rgba(53,60,58,1);
+}
+.column-title{
+	margin: 0px 0px 0px 20px;
+	color: #214239;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.item i{
+	color: #6d7768;
+}
+.item a{
+	color: #097342;
+}
+.meta{
+	padding-left: 20px;
+  margin-top: -5px;
+  font-size: 17px;
+  color: grey;
+}

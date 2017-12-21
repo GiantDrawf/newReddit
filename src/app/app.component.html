@@ -1,0 +1,28 @@
+<div class="title">
+    Welcome to {{title}}!
+</div>
+<div class="app">
+  <form>
+    <h3>Add a Link</h3>
+
+    <div class="filed">
+      <label for="title">Title:</label>
+      <input name="title" #newtitle>
+    </div>
+    <div class="filed">
+      <label for="link">Link:</label>
+      <input name="link" #newlink>
+    </div>
+
+    <!--  added this button -->
+    <div class="submit-filed">
+      <button (click)="addArticle(newtitle, newlink)" class="submit-button">
+        Submit link
+      </button>
+    </div>
+  </form>
+</div>
+<app-article
+  *ngFor="let article of sortedArticles()"
+  [article]="article">
+</app-article>
